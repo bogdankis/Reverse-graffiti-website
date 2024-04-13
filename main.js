@@ -35,5 +35,10 @@ ScrollReveal().reveal('.header__content .header__btn', {
     ...scrollRevealOption,
     delay: 1000,
 });
+
+ScrollReveal().reveal(".about__card", {
+  duration: 1000,
+  interval: 500,
+});
   
 
