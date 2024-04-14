@@ -3,6 +3,10 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 const counters = document.querySelectorAll('.counter');
+const counts = document.querySelectorAll('.count');
+const speed = 97;
+var fullImgBox = document.getElementById("fullImgBox");
+var fullImg = document.getElementById("fullImg");
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
@@ -42,8 +46,6 @@ ScrollReveal().reveal(".about__card", {
   interval: 500,
 });
 
-const counts = document.querySelectorAll('.count')
-const speed = 97
 
 counts.forEach((counter) => {
     function upDate(){
@@ -57,5 +59,14 @@ counts.forEach((counter) => {
             counter.innerText = target
         }
     }
-    upDate()
+    upDate();
 })
+
+function openFullImg(pic){
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic;
+}
+
+function closeFullImg(pic){
+    fullImgBox.style.display = "none";
+}
