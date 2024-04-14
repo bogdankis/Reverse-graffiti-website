@@ -373,7 +373,6 @@ nav {
       grid-template-columns: repeat(4, 1fr);
       grid-column-gap: 1.5rem;
       padding: 5rem 9%;
-      /* margin-top: 5rem; */
       position: relative;
   }
   .counter-wrapper::before{
@@ -428,6 +427,11 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
+    text-align: center;
+  }
+
+  .img__gallery h1 {
+    grid-column: 1/ -1;
   }
 
   .img__gallery img {
