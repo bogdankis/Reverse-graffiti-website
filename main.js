@@ -2,6 +2,7 @@
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
+const counters = document.querySelectorAll('.counter');
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
@@ -40,5 +41,21 @@ ScrollReveal().reveal(".about__card", {
   duration: 1000,
   interval: 500,
 });
-  
 
+const counts = document.querySelectorAll('.count')
+const speed = 97
+
+counts.forEach((counter) => {
+    function upDate(){
+        const target = Number(counter.getAttribute('data-target'))
+        const count = Number(counter.innerText)
+        const inc = target / speed        
+        if(count < target){
+            counter.innerText = Math.floor(inc + count) 
+            setTimeout(upDate, 20)
+        }else{
+            counter.innerText = target
+        }
+    }
+    upDate()
+})
