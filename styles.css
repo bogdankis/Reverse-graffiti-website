@@ -246,6 +246,7 @@ nav {
   }
 
 @media (width > 768px) {
+  
     nav {
       position: static;
       padding: 1.5rem 1rem;
@@ -432,6 +433,7 @@ nav {
 
   .img__gallery h1 {
     grid-column: 1/ -1;
+
   }
 
   .img__gallery img {
@@ -475,3 +477,111 @@ nav {
     cursor: pointer;
 
   }
+
+  .swiper {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+
+  .client__card {
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .client__card img {
+    max-width: 100px;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 100%;
+  }
+
+  .client__card > div {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--text-dark);
+    opacity: .5;
+  }
+
+  .client__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+
+  .client__card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark)
+  }
+
+
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* Styles for navigation arrows */
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+/* Styles for navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+
+
+
