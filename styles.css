@@ -478,12 +478,6 @@ nav {
 
   }
 
-  .swiper {
-    margin-top: 2rem;
-    padding-bottom: 3rem;
-    width: 100%;
-  }
-
   .client__card {
     max-width: 600px;
     margin-inline: auto;
@@ -516,7 +510,11 @@ nav {
     color: var(--text-dark)
   }
 
-
+  .swiper {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
 
   .swiper-container {
     width: 100%;
