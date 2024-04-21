@@ -426,14 +426,13 @@ nav {
     }
   
   .counter-wrapper{
-      grid-template-columns: repeat(2, 1fr);
       grid-row-gap: 8rem;
       background: var(--primary-color);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-column-gap: 1.5rem;
       padding: 5rem 9%;
       position: relative;
