@@ -677,7 +677,7 @@ nav {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #f0f0f0; /* Adjust as needed */
+  background-color: var(--fill-background); /* footer color background */
 }
 
 .footer-icons {
@@ -688,12 +688,18 @@ footer {
   display: inline-block;
   margin: 0 10px;
   font-size: 24px;
-  color: #333; /* Adjust icon color as needed */
+  color: var(--white); /* Adjust icon color as needed */
+}
+.footer-icon:hover {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: var(--text-dark); /* Adjust icon color as needed */
 }
 
 .footer-text {
   font-size: 14px;
-  color: #666; /* Adjust text color as needed */
+  color: var(--white); /* Adjust text color as needed */
 }
 
 .gdpr {
