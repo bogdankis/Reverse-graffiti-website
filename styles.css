@@ -695,6 +695,17 @@ footer {
   color: #666; /* Adjust text color as needed */
 }
 
+.gdpr {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.gdpr:hover {
+  text-decoration: underline;
+}
+
 /*----------------------------------------
   About.html - About us page
 ----------------------------------------*/
