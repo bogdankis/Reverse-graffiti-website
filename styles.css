@@ -6,6 +6,7 @@
     --text-dark: #0a0a0a;
     --text-light: #737373;
     --extra-light: #e5e5e5;
+    --fill-background: #5D7831;
     --white: #ffffff;
     --max-width: 1200px;
     --header-font: "Oswald", sans-serif;
@@ -83,7 +84,7 @@ body {
 }
 
 nav {
-    background-color: var(--text-dark);
+    background-color: var(--extra-light); /*nav color background*/
     position: fixed;
     width: 100%;
     z-index: 9;
@@ -100,7 +101,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--text-dark);
+    background-color: var(--extra-light); /*hamburger open background color*/
 }
 
 .nav__logo img {
@@ -109,7 +110,7 @@ nav {
 
 .nav__menu__btn {
     font-size: 1.5rem;
-    color: var(--white);
+    color: var(--text-dark); /* hamburger color button*/
     cursor: pointer;
 }
 
@@ -125,7 +126,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    background-color: var(--text-dark);
+    background-color: var(--extra-light); /*mobile - hamburger open background color*/
     transition: 0.5s;
     z-index: -1;
     transform: translateY(-100%);
@@ -139,7 +140,7 @@ nav {
     font-size: 1.1rem;
     font-family: var(--header-font);
     white-space: nowrap;
-    color: var(--white);
+    color: var(--text-dark); /*font color buttons nav bar*/
     transition: 0.3s;
 }
 
