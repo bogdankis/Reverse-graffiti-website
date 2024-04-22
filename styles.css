@@ -158,6 +158,7 @@ nav {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    text-align: center;
   }
   
   .header__container {
@@ -716,7 +717,11 @@ footer {
 /*----------------------------------------
   About.html - About us page
 ----------------------------------------*/
-
+.about {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
 
 .about__section {
   display: flex;
@@ -841,3 +846,22 @@ footer {
     padding: 10px; /* Reduces padding for smaller screens */
   }
 }
+
+/*----------------------------------------
+  GDPR.html - GDPR Compliance page
+----------------------------------------*/
+ .gdpr-h1{
+  text-align: center;
+}
+
+.gdpr-compliance {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  text-align: justify;
+}
+
+#gdpr-compliance li{
+  margin-left: 2rem; /* Indent the list */
+}
+
