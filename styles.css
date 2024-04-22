@@ -305,6 +305,11 @@ nav {
     .footer__container {
       grid-template-columns: repeat(2, 1fr);
     }
+
+    .counter__card {
+      padding: 7rem 2rem;
+    }
+
   }
 
 @media (width > 768px) {
@@ -423,65 +428,92 @@ nav {
         margin-bottom: 2rem;
         color: var(--extra-light);
       }
+
+      .counter__section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+      }
+      
+      .counter__card {
+        padding: 5rem 2rem;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      
+      .counter__card h1 {
+        position: relative;
+        isolation: isolate;
+        max-width: fit-content;
+        margin-inline: auto;
+        font-weight: 500;
+        font-family: var(--header-font);
+        color: var(--white);
+        font-size: 5rem;
+        margin-bottom: 1rem; 
+      }
+      
+      .counter__card p {
+        max-width: 350px;
+        margin-inline: auto;
+        margin-bottom: 2rem;
+        color: var(--extra-light);
+        font-size: 1.4rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+      }
     }
   
-  .counter-wrapper{
-      grid-row-gap: 8rem;
-      background: var(--primary-color);
-      background-repeat: no-repeat;
+    .counter__section {
+      background: #5d7831;
+    }
+
+    .counter__card {
+      position: relative; /* Required for absolute positioning within this element */
+      padding: 3rem 2rem;
+      text-align: center;
       background-size: cover;
-      background-position: center;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 1.5rem;
-      padding: 5rem 9%;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    
+    .counter__card h1 {
       position: relative;
-  }
-  .counter-wrapper::before{
-      position: absolute;
+      isolation: isolate;
+      max-width: fit-content;
+      margin-inline: auto;
+      margin-bottom: 1rem;
+      font-size: 5rem;
+      font-weight: 700;
+      font-family: var(--header-font);
+      color: var(--white);
+      font-family: 'Poppins', sans-serif;
+
+    }
+    
+    .counter__card p {
+      max-width: 350px;
+      margin-inline: auto;
+      margin-bottom: 2rem;
+      color: var(--extra-light);
+      font-size: 1.5rem;
+    }
+    
+    /* Add the decorative line beneath the <p> tag */
+    .counter__card::before {
       content: '';
-      content: 0;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.7);
-      z-index: 1;
-  }
-  .counter{
-     text-align: center;   
-     color: #ddd;
-     z-index: 2;
-     position: relative;
-  }
-  .counter::before{
       position: absolute;
-      content: '';
-      bottom: -2rem;
+      bottom: 4rem;
       left: 50%;
       width: 20%;
-      height: .2rem;
-      background: #4DB7FE;
-      border-radius: .5rem;
-      -webkit-border-radius: .5rem;
-      -moz-border-radius: .5rem;
-      -ms-border-radius: .5rem;
-      -o-border-radius: .5rem;
+      height: 0.2rem;
+      background: var(--extra-light);
+      border-radius: 0.5rem;
       transform: translateX(-50%);
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-  }
-  .counter .count{
-      font-size: 5rem;
-      margin-bottom: 1rem;    
-  }
-  .counter p{
-      font-size: 1.4rem;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-  }
+    }
+    
 
   .img__gallery {
     width: 80%;
