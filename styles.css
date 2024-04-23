@@ -88,6 +88,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 9;
+    padding: -1rem;
 }
 
 .nav__bar {
@@ -97,7 +98,9 @@ nav {
 }
 
 .nav__header {
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding-right: 1rem;
+    padding-bottom: -2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -154,7 +157,7 @@ nav {
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.8)
       ),
-      url("assets/header.jpg");
+      url("assets/images/header.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -263,17 +266,17 @@ nav {
 
   .session__card:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("assets/session-1.jpg");
+      url("assets/images/clean-graffitti.jpg");
   }
   
   .session__card:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("assets/session-2.jpg");
+      url("assets/images/moss-graffitti.jpg");
   }
   
   .session__card:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("assets/session-3.jpg");
+      url("assets/images/chalk-graffitti.jpg");
   }
 
   .session__card h4 {
@@ -318,7 +321,8 @@ nav {
   
     nav {
       position: static;
-      padding: 1.5rem 1rem;
+      padding-top: -1.5rem;
+      padding-right: 1rem;
     }
   
     .nav__bar {
@@ -394,22 +398,17 @@ nav {
       
       .session__card:nth-child(1) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/session-1.jpg");
+          url("assets/images/clean-graffitti.jpg");
       }
       
       .session__card:nth-child(2) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/session-2.jpg");
+          url("assets/images/moss-graffitti.jpg");
       }
       
       .session__card:nth-child(3) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/session-3.jpg");
-      }
-      
-      .session__card:nth-child(4) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/session-4.jpg");
+          url("assets/images/chalk-graffitti.jpg");
       }
       
       .session__card h4 {
