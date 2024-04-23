@@ -734,7 +734,7 @@ footer {
   font-family: 'Poppins', sans-serif;
 }
 .about__section img {
-  width: 1000px;
+  /* width: 1000px; */
   height: 400px;
   object-fit: cover
 }
@@ -831,7 +831,7 @@ footer {
   padding-left: 0;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 540px) {
   .row {
     flex-direction: column; /* Stacks elements vertically */
     justify-content: center;
