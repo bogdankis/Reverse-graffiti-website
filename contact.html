@@ -69,19 +69,19 @@
       <span class="circle one"></span>
       <span class="circle two"></span>
 
-      <form action="index.html" autocomplete="off">
+      <form onsubmit="emailSend(); reset(); return false;">
         <h3 class="title">Contact us</h3>
         <div class="input-container">
-          <input type="text" name="name" class="input" placeholder="Name" />
+          <input type="text" name="name" class="input" placeholder="Name" autocomplete="off" id="name"/>
         </div>
         <div class="input-container">
-          <input type="email" name="email" class="input" placeholder="Email" />
+          <input type="email" name="email" class="input" placeholder="Email" autocomplete="off" id="email"/>
         </div>
         <div class="input-container">
-          <input type="tel" name="phone" class="input" placeholder="Phone" />
+          <input type="tel" name="phone" class="input" placeholder="Phone" autocomplete="off" id="phone"/>
         </div>
         <div class="input-container textarea">
-          <textarea name="message" class="input" placeholder="How can we help you?"></textarea>
+          <textarea name="message" class="input" placeholder="How can we help you?" autocomplete="off" id="message"></textarea>
         </div>
         <input type="submit" value="Send" class="btn-contact" />
       </form>
@@ -105,6 +105,8 @@
 <script src="swiper-bundle.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
