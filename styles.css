@@ -266,17 +266,17 @@ nav {
 
   .session__card:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("assets/images/clean-graffitti.jpg");
+      url("assets/images/clean-graffiti.jpg");
   }
   
   .session__card:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("assets/images/moss-graffitti.jpg");
+      url("assets/images/moss-graffiti.jpg");
   }
   
   .session__card:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("assets/images/chalk-graffitti.jpg");
+      url("assets/images/chalk-graffiti.jpg");
   }
 
   .session__card h4 {
@@ -398,17 +398,17 @@ nav {
       
       .session__card:nth-child(1) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/images/clean-graffitti.jpg");
+          url("assets/images/clean-graffiti.jpg");
       }
       
       .session__card:nth-child(2) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/images/moss-graffitti.jpg");
+          url("assets/images/moss-graffiti.jpg");
       }
       
       .session__card:nth-child(3) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-          url("assets/images/chalk-graffitti.jpg");
+          url("assets/images/chalk-graffiti.jpg");
       }
       
       .session__card h4 {
@@ -790,12 +790,19 @@ header.about {
 .gdpr-compliance {
   padding: 20px;
   margin: 20px auto;
+  margin-left: 10px;
   max-width: 1200px;
   text-align: justify;
 }
 
 #gdpr-compliance li{
-  margin-left: 2rem; /* Indent the list */
+  margin-left: 4rem; /* Indent the list */
+}
+#gdpr-compliance h2{
+  margin-left: 2rem; /* Indent the h2 title */
+}
+#gdpr-compliance p{
+  margin-left: 2rem; /* Indent the paragraph */
 }
 
 /*----------------------------------------
