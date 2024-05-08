@@ -887,6 +887,7 @@ form {
   font-family: "Poppins";
 }
 
+
 textarea.input {
   padding: 0.8rem 1.2rem;
   min-height: 150px;
@@ -902,11 +903,29 @@ textarea.input {
   color: #fff;  /*place holder text color form*/
 }
   
-
-.input-container.textarea label {
-  top: 1rem;
-  transform: translateY(0);
+/* Valid input styling */
+.input:valid {
+  border: 2px solid #46a049; /* Green border for valid inputs */
 }
+
+/* Style for focused input fields showing invalid or valid */
+.input:focus:invalid {
+  border: 2px solid #a94442; /* Red border for invalid inputs */
+  background-color: #ffdddd; /* Light red background for invalid input fields on focus */
+}
+
+.input:focus:valid {
+  background-color: #ddffdd; /* Light green background for valid input fields on focus */
+}
+
+.validation-message {
+  color: #a94442; /* Red color for error messages */
+  font-size: 0.8rem; /* Smaller font size for error messages */
+  height: 20px; /* Ensuring consistent spacing */
+}
+
+
+
 
 .btn-contact {
   padding: 0.6rem 1.3rem;

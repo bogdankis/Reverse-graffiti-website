@@ -79,19 +79,23 @@
       <span class="circle one"></span>
       <span class="circle two"></span>
 
-      <form onsubmit="emailSend(); reset(); return false;">
+      <form onsubmit="return validateForm();">
         <h3 class="title">Contact us</h3>
         <div class="input-container">
-          <input type="text" name="name" class="input" placeholder="Name" autocomplete="off" id="name"/>
+          <input type="text" name="name" class="input" placeholder="Name" autocomplete="off" id="name" required />
+          <span class="validation-message" id="name-error"></span>
         </div>
         <div class="input-container">
-          <input type="email" name="email" class="input" placeholder="Email" autocomplete="off" id="email"/>
+          <input type="email" name="email" class="input" placeholder="Email" autocomplete="off" id="email" required />
+          <span class="validation-message" id="email-error"></span>
         </div>
         <div class="input-container">
-          <input type="tel" name="phone" class="input" placeholder="Phone" autocomplete="off" id="phone"/>
+          <input type="tel" name="phone" class="input" placeholder="Phone" autocomplete="off" id="phone" required pattern="\d{10}" />
+          <span class="validation-message" id="phone-error"></span>
         </div>
         <div class="input-container textarea">
-          <textarea name="message" class="input" placeholder="How can we help you?" autocomplete="off" id="message"></textarea>
+          <textarea name="message" class="input" placeholder="How can we help you?" autocomplete="off" id="message" required></textarea>
+          <span class="validation-message" id="message-error"></span>
         </div>
         <input type="submit" value="Send" class="btn-contact" />
       </form>
