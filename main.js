@@ -71,17 +71,20 @@ function closeFullImg(pic){
     fullImgBox.style.display = "none";
 }
 
-const swiper = new Swiper(".swiper", {
-    loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
+var swiper = new Swiper('.swiper', {
+    // Configuration for pagination
     pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      el: '.swiper-pagination',
+      dynamicBullets: false, // Optional: dynamic pagination bullets
+      clickable: true,
     },
-});
+
+    // Configuration for navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next', // Right arrow
+      prevEl: '.swiper-button-prev', // Left arrow
+    },
+  });
 
 function emailSend() {
 	var userName = document.getElementById('name').value;
