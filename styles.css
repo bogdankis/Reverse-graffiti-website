@@ -149,7 +149,7 @@ nav {
 }
 
 .nav__links a:hover {
-    color: var(--primary-color);
+    color: var(--fill-background);
 }
 
 .header {
