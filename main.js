@@ -86,35 +86,6 @@ var swiper = new Swiper('.swiper', {
     },
   });
 
-function emailSend() {
-	var userName = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-	var phone = document.getElementById('phone').value;
-    var message = document.getElementById('message').value;
-
-	var messageBody = "Name: " + userName +
-    "<br/> Email: " + email +
-	"<br/> Phone: " + phone +
-    "<br/> Message: " + message;
-	Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "clouddispose1@gmail.com",
-    Password : "579FA43D94A6D9695545D237D3B6A9FBFC25",
-    To : "clouddispose1@gmail.com",
-    From : "clouddispose1@gmail.com",
-    Subject : "ECOTag Customer",
-    Body : messageBody
-}).then(
-  message => {
-  	if(message=='OK'){
-  		swal("Successful", "Email was sent !", "success");
-  	}
-  	else{
-  		swal("Error", "Email wasn't sent !", "error");
-  	}
-  }
-);
-}
 
 function validateForm() {
     if (emailSend()) {  // Validates and attempts to send the email
