@@ -662,12 +662,12 @@ footer {
 .gdpr:hover {
   text-decoration: underline;
 }
-@media (max-width: 540px) { /* This example hides arrows for screens smaller than 540x */
+@media (max-width: 540px) { /*  Hides arrows for screens smaller than 540x */
   .swiper-button-next, .swiper-button-prev {
     display: none; /* Hide the arrows */
   }
 }
-@media (max-width: 768px) { /* This example hides arrows for screens smaller than 768px */
+@media (max-width: 768px) { /*  Hides arrows for screens smaller than 768px */
   .swiper-button-next, .swiper-button-prev {
     display: none; /* Hide the arrows */
   }

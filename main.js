@@ -87,42 +87,23 @@ var swiper = new Swiper('.swiper', {
   });
 
 
-function validateForm() {
-    if (emailSend()) {  // Validates and attempts to send the email
-      document.getElementById('contactForm').reset();  // Resets the form only if the email was sent
-      return false;  // Prevents the default form submission
-    }
-    return false;  // Prevents the default form submission if validation fails
-  }
-
   function emailSend() {
     var userName = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var phone = document.getElementById('phone').value;
     var message = document.getElementById('message').value;
 
-    // Validation checks
-    if (!userName) {
-        swal("Error", "Please enter your name!", "error");
-        return;
+    if (!userName || !email || !phone || !message) {
+        swal("Error", "All fields are required!", "error");
+        return false;
     }
-    if (!email) {
-        swal("Error", "Please enter your email!", "error");
-        return;
-    } else if (!email.match(/^[^@]+@[^@]+\.[^@]+$/)) {
+    if (!email.match(/^[^@]+@[^@]+\.[^@]+$/)) {
         swal("Error", "Please enter a valid email address!", "error");
-        return;
+        return false;
     }
-    if (!phone) {
-        swal("Error", "Please enter your phone number!", "error");
-        return;
-    } else if (!phone.match(/^\d{10}$/)) {
+    if (!phone.match(/^\d{10}$/)) {
         swal("Error", "Please enter a valid phone number with exactly 10 digits.", "error");
-        return;
-    }
-    if (!message) {
-        swal("Error", "Please enter a message!", "error");
-        return;
+        return false;
     }
 
     var messageBody = "Name: " + userName +
@@ -142,9 +123,12 @@ function validateForm() {
         message => {
             if (message === 'OK') {
                 swal("Successful", "Email was sent!", "success");
+                document.getElementById('contactForm').reset(); // Reset form here after success
             } else {
                 swal("Error", "Email wasn't sent!", "error");
             }
         }
     );
+
+    return false; // Always return false to prevent form submission
 }
