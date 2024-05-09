@@ -857,11 +857,34 @@ textarea.input {
 
 }
 
-.input::placeholder,
 .input::placeholder {
-  color: #fff;  /*place holder text color form*/
+  color: red;  /*place holder text color form*/
 }
-  
+
+/* Default placeholder color */
+.input::placeholder {
+  color: #aaa; /* Light gray by default */
+}
+
+/* When the input is focused */
+.input:focus::placeholder {
+  color: #a94442; /* Darker gray when focused */
+}
+
+/* When the input is focused and valid */
+.input:focus:valid::placeholder {
+  color: #46a049; /* Green for valid inputs when focused */
+}
+
+/* When the input is focused and invalid */
+.input:focus:invalid::placeholder {
+  color: #a94442; /* Red for invalid inputs when focused */
+}
+
+  /* Style for focused input fields when typing */
+.input:focus {
+  color: var(--text-dark);
+}
 /* Valid input styling */
 .input:valid {
   border: 2px solid #46a049; /* Green border for valid inputs */
