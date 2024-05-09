@@ -62,14 +62,32 @@ counts.forEach((counter) => {
     upDate();
 })
 
-function openFullImg(pic){
+function openFullImg(pic) {
     fullImgBox.style.display = "flex";
     fullImg.src = pic;
+    document.addEventListener('keydown', handleKeyDown);
+    fullImgBox.addEventListener('click', checkOutsideClick);
 }
 
-function closeFullImg(pic){
+function closeFullImg() {
     fullImgBox.style.display = "none";
+    document.removeEventListener('keydown', handleKeyDown);
+    fullImgBox.removeEventListener('click', checkOutsideClick);
 }
+
+function handleKeyDown(e) {
+    if (e.key === "Escape") {
+        closeFullImg();
+    }
+}
+
+function checkOutsideClick(e) {
+    if (e.target === fullImgBox) {
+        closeFullImg();
+    }
+}
+
+
 
 var swiper = new Swiper('.swiper', {
     // Configuration for pagination
