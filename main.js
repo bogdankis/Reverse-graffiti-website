@@ -65,10 +65,26 @@ counts.forEach((counter) => {
 function openFullImg(pic){
     fullImgBox.style.display = "flex";
     fullImg.src = pic;
+    document.addEventListener('keydown', handleKeyDown);
+    fullImgBox.addEventListener('click', checkOutsideClick);
 }
 
 function closeFullImg(pic){
     fullImgBox.style.display = "none";
+    document.removeEventListener('keydown', handleKeyDown); // click outside the image to close it
+    fullImgBox.removeEventListener('click', checkOutsideClick); // click "Esc" key to close the image
+}
+
+function handleKeyDown(e) {
+    if (e.key === "Escape") {
+        closeFullImg();
+    }
+}
+
+function checkOutsideClick(e) {
+    if (e.target === fullImgBox) {
+        closeFullImg();
+    }
 }
 
 var swiper = new Swiper('.swiper', {
