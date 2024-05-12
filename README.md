@@ -3,11 +3,14 @@
 Welcome to the documentation for the **ECOtag Website**. This site offers environmentally friendly marketing solutions, focusing on innovative graffiti techniques like Reverse Graffiti, Moss Graffiti, and Chalk Graffiti.
 
 - `index.html` 📄 - Landing page of the website.
-  ![About Page](https://pouch.jumpshare.com/preview/w-33Ila07n1A_MFFqeyfEKBlQOAmq8E45VdP3HBVAy3lNgR1HEYVTM38seq_XHcctdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  ![HOME Page](https://pouch.jumpshare.com/preview/w-33Ila07n1A_MFFqeyfEKBlQOAmq8E45VdP3HBVAy3lNgR1HEYVTM38seq_XHcctdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  
 - `about.html` 📄 - Information about the company and services.
   ![About Page](https://pouch.jumpshare.com/preview/VASV9ZTX0I2yl5r1CglnirZhuTedzX4IHfy0bcB82g9L-I5DUfLOqV3SeSNGtud7tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  
 - `gdpr.html` 📄 - GDPR compliance page.
   ![GDPR Compliance Page](https://pouch.jumpshare.com/preview/VSzRdK73xeQQHuxmnNYBifOQsG_Htnf2aZvQqF3_Sr69S2DThKL6WM2j_adZUZR9tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  
 - `contact.html` 📄 - Contact form for inquiries.
   ![Contact Page](https://pouch.jumpshare.com/preview/auaRKxy38BYhUrTUNSUJA84GT-S1LbNZjy_SxvIgYQfJQbk6wAzM-8KrDBeK7h4Ftdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 
