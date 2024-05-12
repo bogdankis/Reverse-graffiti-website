@@ -1,25 +1,21 @@
-# Reverse-graffiti-website
-
-```markdown
-# 📖 Project Overview
+# Reverse-graffiti-website -📖 Project Overview
 
 Welcome to the documentation for the **ECOtag Website**. This site offers environmentally friendly marketing solutions, focusing on innovative graffiti techniques like Reverse Graffiti, Moss Graffiti, and Chalk Graffiti.
 
 - `index.html` 📄 - Landing page of the website.
-  ![Index Page](https://jumpshare.com/v/yNfUGWkdN6ly32BdHiQF)
+  ![Index Page](https://pouch.jumpshare.com/preview/w-33Ila07n1A_MFFqeyfEKBlQOAmq8E45VdP3HBVAy3lNgR1HEYVTM38seq_XHcctdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 - `about.html` 📄 - Information about the company and services.
-  ![About Page](https://jumpshare.com/v/gnIDX3BEmbQEZd5xnhxA)
+  ![About Page](https://pouch.jumpshare.com/preview/VASV9ZTX0I2yl5r1CglnirZhuTedzX4IHfy0bcB82g9L-I5DUfLOqV3SeSNGtud7tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 - `gdpr.html` 📄 - GDPR compliance page.
-  ![GDPR Compliance Page](https://jumpshare.com/v/wDKRDALehvIgBDX77ChL)
+  ![GDPR Compliance Page](https://pouch.jumpshare.com/preview/VSzRdK73xeQQHuxmnNYBifOQsG_Htnf2aZvQqF3_Sr69S2DThKL6WM2j_adZUZR9tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 - `contact.html` 📄 - Contact form for inquiries.
-  ![Contact Page](https://jumpshare.com/v/CynOts38fLIovle2eFjs)
+  ![Contact Page](https://pouch.jumpshare.com/preview/auaRKxy38BYhUrTUNSUJA84GT-S1LbNZjy_SxvIgYQfJQbk6wAzM-8KrDBeK7h4Ftdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 
 
 - **🌐 Purpose**: To promote and provide eco-friendly advertising services.
-- **🧑‍💻 Authors**: ECOtag Team
 - **📅 Last Updated**: May 2024
 
----
+
 
 # 🗂️ Project Structure
 
@@ -35,7 +31,7 @@ Here's the basic structure of the project:
     main.js ⚙️ - Core JavaScript logic for interactivity and animations.
     assets/ 📂 - Folder for images, icons, and other assets.
 
----
+
 
 # 🛠️ Development Setup
 
@@ -93,32 +89,43 @@ Refer to the official documentation for the libraries used for detailed guides a
 
 ---
 
-```
+
 
 Replace `path/to/homepage_screenshot.png` and other paths with actual paths to your screenshot files. This way, the README will visually represent different sections of your website, enhancing the understanding of your project structure and user interface.
 # 📧 Setting Up the Contact Form
 
 The contact form uses SMTP.js to send emails directly from the client side, configured with Elastic Email for SMTP service. Follow these steps to configure the SMTP settings properly:
-Step1:
 
-1. **SMTP Configuration**:
-   - **Host**: "smtp.elasticemail.com"
-   - **Username**: Your Elastic Email account username
-   - **Password**: `Use the password provided in your Elastic Email account settings`
+Step 1: Go to https://elasticemail.com/ amd create an acccount
+![Index Page](https://pouch.jumpshare.com/preview/yuZh2COSb2CbI4kmTjK_uAvAWnItNlbpUGGJgn_O0zOWmxxnFPS87JsWycPjg_Z17EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
 
-   Insert these details in the `Email.send()` method in your `main.js`.
+Step 2: Go to settings and click Create SMTP credentials
+![Index Page](https://pouch.jumpshare.com/preview/XkuOOlHr2YcyVoxC_OJaKQBQfZI4F4raIseb3KACYfvmu7aiAbrynlNIiZOHtuZS7EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
 
-   ```javascript
-   Email.send({
-       Host: "smtp.elasticemail.com",
-       Username: "your_username",
-       Password: "your_password",
-       To: 'recipient_email@example.com',
-       From: "sender_email@example.com",
-       Subject: "Subject of the email",
-       Body: "Body content of the email"
-   }).then(message => alert(message));
-   ```
+Step 3: Insert email
+![Index Page](https://pouch.jumpshare.com/preview/x-sGo9YXB1O5HTj2IERFfwT16Ct2lpdc62baXlj0pUJj2kBhipOM7k3-fPUEQC0k7EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
+Step 4: Copy the password
+![Index Page](https://pouch.jumpshare.com/preview/Sv6LQ5BbHvJNXBQbCx-bxK52OiUNcoVVJ9BswCIfparSC638dP6xEU8F_cuQPUW37EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
+Step 5: Open the project in an IDE(in this case Visual Studio Code)
+![Index Page](https://pouch.jumpshare.com/preview/43S37xz8lXyoUW9yOJMN8-W5fk7My4jzFXjcRPE-wCnfo0QUp2Oc4UbrUGJ6ya--7EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
+Step 6: Go to main.js
+![Index Page](https://pouch.jumpshare.com/preview/V2J4w3IxFWnLj_xuHSTgsp7vrDsYyFf7GFuHBiEtu5MTtXLJYPQeJis6levHfVCY7EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
+Step 7: Add email and password from elastic email in the fields
+![Index Page](https://pouch.jumpshare.com/preview/pdFEj2qpADKq-DZ1xuerOE8iiNOWJL0gzjtIEkFdoOxNZ22eXPgP1qJ7nA2vlyOL7EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
+
+# 📧 To change Elastic Email password for main.js file follow the steps:
+
+Go to Manage STMP Credentials
+![Index Page](https://pouch.jumpshare.com/preview/SZk3jdagnkibmJ0CUO5_YQ0tAXCZ_JRDmV1Z1LqCAGf08xM1UpyOyo5sI7vsLtO37EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
+Click meatball menu and change password
+![Index Page](https://pouch.jumpshare.com/preview/HkLXZ2PZdV4VSitSnF3kXksRbDsmKZHSuQkAnT8gwlf38uM9L8kyVpqMg7M7I4z-7EwCfBAjkJf1wUmR0zMlfGMM4hU977FRhx26gJvndzw)
+
 
 2. **Securing Your Credentials**: Avoid hardcoding sensitive credentials directly in your scripts. Consider using environment variables or server-side encryption methods to secure your API keys and passwords.
 
