@@ -3,13 +3,13 @@
 Welcome to the documentation for the **ECOtag Website**. This site offers environmentally friendly marketing solutions, focusing on innovative graffiti techniques like Reverse Graffiti, Moss Graffiti, and Chalk Graffiti.
 
 - `index.html` 📄 - Landing page of the website.
-  ![HOME Page](https://pouch.jumpshare.com/preview/w-33Ila07n1A_MFFqeyfEKBlQOAmq8E45VdP3HBVAy3lNgR1HEYVTM38seq_XHcctdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  ![HOME Page](https://pouch.jumpshare.com/preview/1aOO5PirG9sX7_rs9NTqMdFDxjClEi_X2QYoKDwvZkA14MqBmI5Sz2Uvi8tdPB3vc-XB3vwkJhT6y_1v2sX-5k4uNzRGCD_rrNNN8EJPGME)
   
 - `about.html` 📄 - Information about the company and services.
   ![About Page](https://pouch.jumpshare.com/preview/VASV9ZTX0I2yl5r1CglnirZhuTedzX4IHfy0bcB82g9L-I5DUfLOqV3SeSNGtud7tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
   
 - `gdpr.html` 📄 - GDPR compliance page.
-  ![GDPR Compliance Page](https://pouch.jumpshare.com/preview/VSzRdK73xeQQHuxmnNYBifOQsG_Htnf2aZvQqF3_Sr69S2DThKL6WM2j_adZUZR9tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  ![GDPR Compliance Page](https://pouch.jumpshare.com/preview/oK6fYRWoMwMKAxDhQrrTa7J27OFo5VaXMdjFHSQcTSvKBKeyeem04l0bLH-swpc-c-XB3vwkJhT6y_1v2sX-5k4uNzRGCD_rrNNN8EJPGME)
   
 - `contact.html` 📄 - Contact form for inquiries.
   ![Contact Page](https://pouch.jumpshare.com/preview/auaRKxy38BYhUrTUNSUJA84GT-S1LbNZjy_SxvIgYQfJQbk6wAzM-8KrDBeK7h4Ftdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
