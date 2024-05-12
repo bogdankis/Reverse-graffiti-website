@@ -3,7 +3,7 @@
 Welcome to the documentation for the **ECOtag Website**. This site offers environmentally friendly marketing solutions, focusing on innovative graffiti techniques like Reverse Graffiti, Moss Graffiti, and Chalk Graffiti.
 
 - `index.html` 📄 - Landing page of the website.
-  ![Index Page](https://pouch.jumpshare.com/preview/w-33Ila07n1A_MFFqeyfEKBlQOAmq8E45VdP3HBVAy3lNgR1HEYVTM38seq_XHcctdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
+  ![About Page](https://pouch.jumpshare.com/preview/w-33Ila07n1A_MFFqeyfEKBlQOAmq8E45VdP3HBVAy3lNgR1HEYVTM38seq_XHcctdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 - `about.html` 📄 - Information about the company and services.
   ![About Page](https://pouch.jumpshare.com/preview/VASV9ZTX0I2yl5r1CglnirZhuTedzX4IHfy0bcB82g9L-I5DUfLOqV3SeSNGtud7tdq0gq4cBV8IDhqCAg7yt6xg8T-Aa-i84BYjZ1ZyKfo)
 - `gdpr.html` 📄 - GDPR compliance page.
